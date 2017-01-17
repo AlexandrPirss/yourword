@@ -1,0 +1,64 @@
+/*
+* Third Party
+*/
+@import "../../node_modules/swiper/dist/css/swiper.min.css";
+@import "../../node_modules/magnific-popup/dist/magnific-popup.css";
+
+
+/*
+* Custom
+*/
+@import "_reset.scss";
+@import "_grids.scss";
+@import "_fonts.scss";
+
+
+//header
+@import "../template/header-video/_header__video.scss";
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+	&:focus {
+		text-decoration: none;
+	}	
+	&:active {
+		text-decoration: none;
+	}
+}
+textarea {
+	outline: none;
+}
+textarea::-webkit-input-placeholder {
+	color: #000;
+}
+textarea:-moz-placeholder {
+	color: #000;
+}
+input {
+	outline: none;
+}
+input[type="text"] {
+	color: #000;
+}
+input::-webkit-input-placeholder {
+	color: #000;
+}
+input:-moz-placeholder {
+	color: #000;
+}
+
+body {
+	font-family: 'Comfortaa', cursive;
+	font-size: 16px;
+	color: #fff;
+}
+.wrapper {
+	position: relative;
+	color: #000;
+	z-index: 10;
+	@import "../template/about/_about.scss";
+	@import "../template/product-slider/_product__slider.scss";
+	@import "../template/footer/_footer.scss";
+}

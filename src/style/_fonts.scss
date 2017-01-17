@@ -1,0 +1,7 @@
+/* 
+@font-face {
+	font-family: "raleway-thin"; имя шрифта для CSS правил
+	src: local("raleway-thin"), проверяем наличие шрифта в ОС пользователя
+	url("../fonts/raleway-thin.otf"); если шрифт не установлен, тогда загружаем его по указанному пути
+}
+ */
